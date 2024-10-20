@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot name="donut">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://ring/ring_vhacd.dae" scale=".1 .1 .1"/>
+      </geometry>
+      <material name="metal">
+        <texture filename="package://texture/metal_texture.png"/>
+        <!-- <color rgba="1 1 1 1"/> -->
+        <!-- <specular rgb="11 1 1"/> -->
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://ring/ring_vhacd.obj" scale=".1 .1 .1" />
+      </geometry>
+    </collision>
+  </link>
+
+</robot>
+
+<!-- <?xml version="1.0"?>
+<robot name="donut">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://fish/ring2_dec_vhacd.obj" scale="1 1 1"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://fish/ring2_dec_vhacd.obj" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+
+</robot> -->
+
+
